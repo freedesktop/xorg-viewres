@@ -27,7 +27,7 @@ in this Software without prior written authorization from the X Consortium.
  * *
  * Author:  Jim Fulton, MIT X Consortium
  */
-/* $XFree86$ */
+/* $XFree86: xc/programs/viewres/viewres.c,v 1.7 2003/09/08 20:49:47 herrb Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
