@@ -38,8 +38,9 @@ appdefaultdir = $(sysconfdir)/X11/app-defaults
 APPDEFAULTFILES = \
         Viewres
 
+SUFFIXES = .ad 
 
-$(APPDEFAULTFILES): %: %.ad
+.ad:
 	cp $< $@
 
 appdefault_DATA = $(APPDEFAULTFILES)
