@@ -22,7 +22,7 @@ dnl
 dnl Process this file with autoconf to create configure.
 
 AC_PREREQ([2.57])
-AC_INIT(viewres,[7.0], [xorg@freedestkop.org],viewres)
+AC_INIT(viewres,[0.99.0], [https://bugs.freedesktop.org/enter_bug.cgi?product=xorg],viewres)
 AM_INIT_AUTOMAKE([dist-bzip2])
 AM_MAINTAINER_MODE
 
@@ -35,5 +35,7 @@ XAW_CHECK_XPRINT_SUPPORT(VIEWRES)
 
 AC_SUBST(VIEWRES_CFLAGS)
 AC_SUBST(VIEWRES_LIBS)
+
+XORG_RELEASE_VERSION
 
 AC_OUTPUT([Makefile])
