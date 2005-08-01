@@ -27,7 +27,7 @@ viewres_LDADD = $(VIEWRES_LIBS)
 viewres_SOURCES =	\
         viewres.c
 
-dist_man_MANS = \
+dist_man1_MANS = \
         viewres.man
 
 # App default files  (*.ad)
