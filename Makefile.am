@@ -36,8 +36,8 @@ DISTCHECK_CONFIGURE_FLAGS = --with-appdefaultdir=\$${datadir}/X11/app-defaults
 appdefaultdir = @appdefaultdir@
 
 dist_appdefault_DATA = \
-        app-defaults/Viewres
-
+        app-defaults/Viewres \
+        app-defaults/Viewres-color
 
 appmandir = $(APP_MAN_DIR)
 
