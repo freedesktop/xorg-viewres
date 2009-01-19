@@ -19,3 +19,7 @@ stamp-h1
 viewres
 viewres.1
 *~
+*.o
+viewres-*.tar.*
+ChangeLog
+tags
