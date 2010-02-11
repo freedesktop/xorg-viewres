@@ -21,7 +21,7 @@
 
 bin_PROGRAMS = viewres
 
-AM_CFLAGS = $(VIEWRES_CFLAGS)
+AM_CFLAGS = $(VIEWRES_CFLAGS) $(CWARNFLAGS)
 viewres_LDADD = $(VIEWRES_LIBS)
 
 viewres_SOURCES =	\
