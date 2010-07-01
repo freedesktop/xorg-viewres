@@ -38,11 +38,10 @@ AC_PROG_CC
 AC_PROG_INSTALL
 
 
-PKG_CHECK_MODULES(VIEWRES, xaw7)
+PKG_CHECK_MODULES(VIEWRES, xaw7 xmu xt)
 AC_SUBST(VIEWRES_CFLAGS)
 AC_SUBST(VIEWRES_LIBS)
 
-PKG_CHECK_MODULES(APPDEFS, xt)
 xt_appdefaultdir=`$PKG_CONFIG --variable=appdefaultdir xt`
 AC_ARG_WITH(appdefaultdir,
 	AC_HELP_STRING([--with-appdefaultdir=<pathname>],
