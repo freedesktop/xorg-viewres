@@ -34,13 +34,7 @@ XORG_DEFAULT_OPTIONS
 
 AM_CONFIG_HEADER(config.h)
 
-AC_PROG_CC
-AC_PROG_INSTALL
-
-
 PKG_CHECK_MODULES(VIEWRES, xaw7 xmu xt)
-AC_SUBST(VIEWRES_CFLAGS)
-AC_SUBST(VIEWRES_LIBS)
 
 xt_appdefaultdir=`$PKG_CONFIG --variable=appdefaultdir xt`
 AC_ARG_WITH(appdefaultdir,
