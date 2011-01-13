@@ -207,7 +207,7 @@ Viewres viewres
 .sp
 where \fIvariable-name\fP is the widget variable name of each node.
 .SH "SEE ALSO"
-X(__miscmansuffix__), xrdb(1), listres(1), editres(1), appres(1), appropriate widget documents
+X(__miscmansuffix__), xrdb(__appmansuffix__), listres(__appmansuffix__), editres(__appmansuffix__), appres(__appmansuffix__), appropriate widget documents
 .SH COPYRIGHT
 Copyright 1994 X Consortium
 .br
